@@ -8,5 +8,4 @@ module.exports = {
     Producer
   , Client
   , Api
-  , Process
 }
