@@ -5,8 +5,8 @@ let { Producer }  = require('../')
 let prod = (new Producer({}));
 let child = spawn('node', ['-e', `
 let li  = require('lorem-ipsum')
-  , o   = li()
-  , e   = li()
+  , o   = li({ units : 'paragraphs' })
+  , e   = li({ units : 'paragraphs' })
   ;
 
 console.log(o);
