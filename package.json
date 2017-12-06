@@ -17,18 +17,18 @@
   },
   "homepage": "https://github.com/a7medkamel/tailf.io-sdk#readme",
   "dependencies": {
-    "async": "^2.5.0",
-    "bluebird": "^3.5.0",
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
     "callback-timeout": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
-    "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
     "through2": "^2.0.3",
     "through2-sink": "^1.0.0",
     "universal-url": "^1.0.0",
     "url-join": "^2.0.2",
-    "winston": "^2.3.1"
+    "winston": "^2.4.0"
   },
   "devDependencies": {
     "lorem-ipsum": "^1.0.4"
