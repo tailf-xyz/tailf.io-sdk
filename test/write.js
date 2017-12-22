@@ -3,7 +3,7 @@ var Log = require('../lib/log');
 Log
   .open()
   .tap((log) => {
-    console.log(`Log ${log.id} ...`);
+    console.log(`Log ${log} ...`);
 
     log.write('hello\n');
     log.error('world\n');
