@@ -8,10 +8,13 @@ Log
     log.write('hello\n');
     log.error('world\n');
 
-    log.on('end', () => {
-      console.log(`Log ${log.id} ended.`);
-      process.exit();
-    });
+    log
+      .readOnEnd()
+      .then((rec) => {
+        console.log(`Log ${log.id} ended.`);
+        console.dir(rec);
+        process.exit();
+      })
   })
   .delay(2 * 1000)
   .tap((log) => {
