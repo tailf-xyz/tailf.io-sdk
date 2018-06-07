@@ -18,5 +18,5 @@ Log
   })
   .delay(2 * 1000)
   .tap((log) => {
-    log.end({ a : 'b' });
+    log.end(undefined, { a : 'b' });
   });
