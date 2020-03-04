@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.6.0",
     "bluebird": "^3.5.1",
+    "bluebird-retry": "^0.11.0",
     "callback-timeout": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
